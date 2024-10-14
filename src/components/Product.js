@@ -17,7 +17,7 @@ function Product() {
                 <img src={imgtwo} alt="image2"></img>
                 <p>
                     <b>Irresistible Givenchy Perfume</b><br></br>
-                    New Fragrances-The combination of cinnamon and vanilla
+                    New Fragrances-cinnamon and vanilla
                 </p>
             </div>
             <div class="box">
