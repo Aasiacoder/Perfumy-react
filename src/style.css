@@ -1,18 +1,22 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 nav{
     background-color: black;
     color: white;
     width: 100%;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-h1,ul,li{
+nav h1,ul,li{
     display: inline;
 }
 ul{
-    margin-left: 60%;
+    margin-left: ;
 }
 li{
     color: grey;
@@ -32,12 +36,12 @@ input{
 .box{
     border: solid black 2px;
     text-align: center;
-    width: 220px;
+    width: 250px;
     display: inline-block;
 }
 
 img{
-    width: 220px;
+    width: 246px;
     height: 200px;
 }
 
@@ -50,6 +54,10 @@ img{
 .products{
     text-align: center;
     padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 h2 {
     text-align: center;
@@ -72,6 +80,7 @@ h3 {
     padding: 20px;
     margin-top: 20px;
 }
+
 .one{
     color: grey;
     padding: 20px;
